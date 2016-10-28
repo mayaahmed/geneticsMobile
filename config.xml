@@ -26,7 +26,9 @@
 <icon src="xhdpi.png" platform="android" qualifier="xhdpi" />
 <icon src="xxhdpi.png" platform="android" qualifier="xxhdpi" />
 
-<plugin name="phonegap-plugin-InAppBrowser" />
+
+  <plugin name="cordova-plugin-inappbrowser" />
+
 
  
  </widget>

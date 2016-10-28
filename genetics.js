@@ -74,8 +74,7 @@ function google()
 str="http://www.google.com/search?hl=en&source=hp&q=" + str + "&aq=f&oq=&aqi=";
 
 popitup(str);
-/*var win = window.open(str, '_blank');
-  win.focus();*/
+
   
 }
 
@@ -86,5 +85,3 @@ function popitup(url) {
 }
 
 
-var ref = cordova.InAppBrowser.open('http://apache.org', '_blank', 'location=yes');
-ref.addEventListener('loadstart', function(event) { alert(event.url); });
