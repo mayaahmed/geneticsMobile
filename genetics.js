@@ -68,6 +68,7 @@ output.innerHTML= output.innerHTML+part2 + " \" ";
 }
 
 
+
 function google()
 {
   var str = resultsString;
@@ -79,8 +80,8 @@ popitup(str);
 }
 
 function popitup(url) {
-  newwindow=cordova.InAppBrowser.open(url,'_blank', 'location=yes');
- if (InAppBrowser.focus) {newwindow.focus()}
+  newwindow=window.open(url,'_blank', 'location=yes');
+ if (window.focus) {newwindow.focus()}
  return false;
 }
 

@@ -27,7 +27,7 @@
 <icon src="xxhdpi.png" platform="android" qualifier="xxhdpi" />
 
 
-   <gap:plugin name="org.apache.cordova.core.inappbrowser" />
+   <gap:plugin name="org.apache.cordova.inappbrowser" />
 
 
  
