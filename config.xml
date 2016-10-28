@@ -27,5 +27,5 @@
 <icon src="xxhdpi.png" platform="android" qualifier="xxhdpi" />
 
 
-<plugin name="org.apache.cordova.inappbrowser" spec="0.1.0" source="pgb" />    
+    
  </widget>
