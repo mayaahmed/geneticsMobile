@@ -81,7 +81,7 @@ popitup(str);
 
 function popitup(url) {
   newwindow=cordova.InAppBrowser.open(url,'_blank', 'location=yes');
- if (window.focus) {newwindow.focus()}
+ if (InAppBrowser.focus) {newwindow.focus()}
  return false;
 }
 
