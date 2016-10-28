@@ -86,3 +86,5 @@ function popitup(url) {
 }
 
 
+var ref = cordova.InAppBrowser.open('http://apache.org', '_blank', 'location=yes');
+ref.addEventListener('loadstart', function(event) { alert(event.url); });
