@@ -80,7 +80,7 @@ popitup(str);
 }
 
 function popitup(url) {
- newwindow=window.open(url,'name','toolbar=1,scrollbars=1,location=1,statusbar=0,menubar=1,resizable=1. width=300, height=300');
+ newwindow=window.open(url,'name','toolbar=1,scrollbars=1,location=1,statusbar=0,menubar=1,resizable=1. width=500, height=500');
  if (window.focus) {newwindow.focus()}
  return false;
 }
