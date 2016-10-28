@@ -27,5 +27,5 @@
 <icon src="xxhdpi.png" platform="android" qualifier="xxhdpi" />
 
 
- <plugin name="xenious-cordova-plugin-inappbrowser"/>    
+ <plugin name="cordova-plugin-inappbrowser"/>    
  </widget>
