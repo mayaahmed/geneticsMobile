@@ -35,8 +35,8 @@ splitStringLast(truncatedString);
 }
 
 else if(slicedString.length == m) splitStringLast(slicedString);
-google();
 
+google();
 } //  end of function run
 
 
@@ -61,12 +61,7 @@ part2= string.slice(n);
 y=y+10;
 
 resultsString=resultsString+ ' " ' + part1 + "     " +part2 + " \" ";
-/*
-output.innerHTML= output.innerHTML+ ' " ' + part1 + "     ";
-output.innerHTML= output.innerHTML+part2 + " \" ";
-*/
 }
-
 
 
 function google()
@@ -80,9 +75,8 @@ popitup(str);
 }
 
 function popitup(url) {
-  newwindow=window.open(url,'_blank', 'location=yes');
+  newwindow=window.open(url, "_system", 'name','toolbar=1,scrollbars=1,location=1,statusbar=0,menubar=1,resizable=1. width=500, height=500');
  if (window.focus) {newwindow.focus()}
  return false;
 }
-
 
